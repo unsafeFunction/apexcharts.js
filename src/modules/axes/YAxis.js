@@ -80,7 +80,7 @@ export default class YAxis {
           y: l + tickAmount / 10 + w.config.yaxis[realIndex].labels.offsetY + 1,
           text: val,
           textAnchor: w.config.yaxis[realIndex].opposite ? 'start' : 'end',
-          fontSize: yaxisFontSize,
+          fontSize: '43px',
           fontFamily: yaxisFontFamily,
           foreColor: w.config.yaxis[realIndex].labels.style.color,
           cssClass:
